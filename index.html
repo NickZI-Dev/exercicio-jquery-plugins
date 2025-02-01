@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viagens&CIA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="shortcut icon" href="./icon/icons8-avião-decolando-48.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container container-flex">
+
+      <h1>Viagens&CIA</h1>
+
+      <div class="menu-hamburguer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#lista-viagens">Viagens</a></li>
+            <li><a href="#promocao">Promoções</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+    <!-- carrosel de imagens principal -->
+    <div class="container carousel-image container-flex">
+
+      <img src="./img/gramado.png" alt="foto da entrada de gramados no Brasil">
+      <img src="./img/koreia-do-sul.jpg" alt="foto de um local turistico na coreia do sul">
+      <img src="./img/canada.jpg" alt="foto de uma familia no canada">
+
+    </div>
+    <!-- fim do carrosel de imagens -->
+
+    <!-- Sessão "Sobre nós" inicia -->
+    <section id="sobre">
+
+      <div class="container container-grid">
+
+        <img src="./img/sobre-nos.jpg" alt="imagem-sobre-nós">
+
+        <div>
+          <h2>Sobre nós</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eos earum explicabo corporis odio provident quasi assumenda voluptatum odit tenetur velit et nihil totam ipsa rerum minima, mollitia obcaecati delectus!</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi voluptate alias rerum blanditiis dolore, dolor nihil, sint consequuntur quasi aspernatur! Ea sed consequuntur temporibus architecto aspernatur vero minima sit!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, dolore dolorem. Odio aliquam, veniam, nesciunt quibusdam laboriosam similique exercitationem fuga molestias ex, nisi dolore odit nobis blanditiis ipsum saepe voluptatum.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Sessão "Sobre nós" termina -->
+
+    <!-- Sessão que mostra a lista de viagens / possui um carrosel de elementos -->
+
+    <section id="lista-viagens">
+
+      <div class="container">
+
+        <h2>Viagens</h2>
+        <!-- Aqui inicia o carrosel de elementos, onde o usuario pode passar para o lado para verificar mais opções -->
+        <div class="carousel-viagens">
+          <!-- Primeiro <div> possui 1 <ul> com 3 <li> que mostram as 3 primeiras opções ao usuário  -->
+          <div>
+            <ul class="viagens container-flex">
+              <li>
+                <img src="./img/tokyo.jpeg" alt="tokyo-japao">
+                <h3>Tokyo - Japão</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+                <strong>R$ 1.499,90 </strong>
+                <button type="button">Tenho interesse</button>
+              </li>
+              <li>
+                <img src="./img/ottawa-canada.png" alt="ottawa-canada">
+                <h3>Ottawa - Canadá</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+                <strong>R$ 1.299,90</strong>
+                <button type="button">Tenho interesse</button>
+              </li>
+              <li>
+                <img src="./img/riodejaneiro - brasil.jpg" alt="RiodeJaneiro-Brasil">
+                <h3>Rio de Janeiro - Brasil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+                <strong>R$ 1.299,90</strong>
+                <button type="button">Tenho interesse</button>
+              </li>
+            </ul>
+          </div>
+          <!-- Aqui inicia as últimas três opções que o usuário terá o direito de escolher  -->
+          <div>
+            <!-- Novamente, 1 <div> com 1 <ul> que possui 3 <li> mostrando as útimas opções -->
+            <ul class="viagens container-flex">
+              <li>
+                <img src="./img/mexico-Chichén Itza.png" alt="Mexico">
+                <h3>Chichén Itza - México</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+                <strong class="preco">
+                  <del>R$ 1.000,00</del>
+                  R$ 799,90
+                </strong>
+                <button type="button">Tenho interesse</button>
+              </li>
+              <li>
+                <img src="./img/gramado.png" alt="Gramado-RS-Brasil">
+                <h3>Gramado - Brasil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+                <strong class="preco">
+                  <del>R$ 1.000,00</del>
+                  R$ 799,90
+                </strong>
+                <button type="button">Tenho interesse</button>
+              </li>
+              <li>
+                <img src="./img/hong-kong-china.png" alt="Hong-kong - China">
+                <h3>Hong kong - China</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+                <strong class="preco">
+                  <del>R$ 1.000,00</del>
+                  R$ 799,90
+                </strong>
+                <button type="button">Tenho interesse</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Aqui encerramos com a sessão de viagens e consequentemente com o carrosel de elementos -->
+
+        <!-- Damos inicio a área de promoções -->
+
+        <div id="promocao">
+          <h2>Promoções</h2>
+          <ul class="viagens container-flex">
+            <li>
+              <img src="./img/mexico-Chichén Itza.png" alt="Mexico">
+              <h3>Chichén Itza - México</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+              <strong class="preco">
+                <del>R$ 1.000,00</del>
+                R$ 799,90
+              </strong>
+              <button type="button">Tenho interesse</button>
+            </li>
+            <li>
+              <img src="./img/gramado.png" alt="Gramado-RS-Brasil">
+              <h3>Gramado - Brasil</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+              <strong class="preco">
+                <del>R$ 1.000,00</del>
+                R$ 799,90
+              </strong>
+              <button type="button">Tenho interesse</button>
+            </li>
+            <li>
+              <img src="./img/hong-kong-china.png" alt="Hong-kong - China">
+              <h3>Hong kong - China</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde illo voluptates at veritatis, numquam vero saepe dolores tenetur debitis blanditiis quidem perspiciatis ipsam expedita neque minima corporis? Doloremque, temporibus.</p>
+              <strong class="preco">
+                <del>R$ 1.000,00</del>
+                R$ 799,90
+              </strong>
+              <button type="button">Tenho interesse</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- aqui encerramos a parte que mostra as promoções de viagens -->
+
+    <!-- Damos inicio a parte de "Entrar em contato" -->
+
+    <section id="contato">
+
+      <form class="contact-form">
+
+        <h2>Entrar em Contato</h2>
+
+        <label for="nome-completo">Nome:</label>
+        <input type="text" placeholder="nome completo" id="nome-completo" name="nomeCompleto">
+
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="ex: josealmeida@hotmail.com" name="email">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <label for="viagem">Viagem de interesse:</label>
+        <input type="text" id="viagem">
+
+        <textarea name="" placeholder="Por favor, dê-nos seu feedback ;D"></textarea>
+
+        <button type="submit">Enviar</button>
+
+      </form>
+
+    </section>
+<!-- Damos fim a parte de entrar em contato e iniciamos o footer que não possue grande segredo. Basicão. -->
+  </main>
+
+  <footer>
+    2025 &copy;Direitos Reservados à Nícolas Iesus
+    <ul class="icon container-flex">
+      <li>
+        <a href="https://github.com/NickZI-Dev" title="Ir para o Github" target="_blank"><img src="./icon/github-icon.png" alt="icone-github"></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/nicolas_iesus" title="Ir para o Instagram" target="_blank"><img src="./icon/instagram.png" alt="icone-instagram"></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="./main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/jquery.mask.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
+  <script src="./js/messages_pt_BR.min.js"></script>
+  <script src="./js/select-travel.js"></script>
+</body>
+
+</html>
